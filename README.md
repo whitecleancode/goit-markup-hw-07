@@ -1,1 +1,1 @@
-https://whitecleancode.github.io/goit-markup-hw-06/
+BEM GOLOVNOGO MOzga
