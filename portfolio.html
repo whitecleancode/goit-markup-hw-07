@@ -19,37 +19,40 @@
   </head>
   <body class="page">
     <!-- Шапка -->
-    <header class="header">
-      <div class="container header">
-        <a class="logo" href="./index.html" class="href" lang="en"
-          >Web<span class="logo-black">Studio</span></a
+   <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="./index.html" class="href" lang="en"
+          >Web<span class="header__logo--black">Studio</span></a
         >
         <nav class="nav">
-          <ul class="site-nav list">
-            <li class="item detail">
-              <a class="link" href="./index.html">Студия</a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="./index.html">Студия</a>
             </li>
-            <li class="item detail">
-              <a class="link current" href="./portfolio.html">Портфолио</a>
+            <li class="nav__item">
+              <a class="nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item detail">
-              <a class="link contacts" href="./contacts.html">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link" href="./contacts.html">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="list hdr-contacts">
-          <li class="space">
-            <a class="mail" href="mailto:info@devstudio.com" lang="en"
-              ><svg class="svg-mail" width="16" height="12">
-              <use href="./images/icons.svg#mail"></use>
-            </svg>
-            info@devstudio.com</a>
+        <ul class="contacts list">
+          <li>
+            <a class="contacts__mail" href="mailto:info@devstudio.com" lang="en"
+              ><svg class="contacts__icon" width="16" height="12">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li class="space">
-            <a class="tel" href="tel:+38 096 111 11 11">
-              <svg class="svg-tel" width="10" height="16">
-              <use href="./images/icons.svg#tel"></use>
-            </svg>+38 096 111 11 11</a>
+          <li>
+            <a class="contacts__tel" href="tel:+38 096 111 11 11">
+              <svg class="contacts__icon" width="10" height="16">
+                <use href="./images/icons.svg#tel"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -57,156 +60,156 @@
 
     <!-- Мэйн -->
     <main>
-    <section class="section">
-      <div class="container portfolio">
+    <section class="portfolio">
+      <div class="container">
         <h1 class="visually-hidden">web-studio portfolio</h1>
 
-        <ul class="btnlist list">
-          <li class="btnitem">
-            <button class="button-portfolio" type="button">Все</button>
+        <ul class="btnlist portfolio__btnlist list">
+          <li class="btnlist__btnitem">
+            <button class="btnlist__button" type="button">Все</button>
           </li>
-          <li class="btnitem">
-            <button class="button-portfolio" type="button">Веб-сайты</button>
+          <li class="btnlist__btnitem">
+            <button class="btnlist__button" type="button">Веб-сайты</button>
           </li>
-          <li class="btnitem">
-            <button class="button-portfolio" type="button">Приложения</button>
+          <li class="btnlist__btnitem">
+            <button class="btnlist__button" type="button">Приложения</button>
           </li>
-          <li class="btnitem">
-            <button class="button-portfolio" type="button">Дизайн</button>
+          <li class="btnlist__btnitem">
+            <button class="btnlist__button" type="button">Дизайн</button>
           </li>
-          <li class="btnitem">
-            <button class="button-portfolio" type="button">Маркетинг</button>
+          <li class="btnlist__btnitem">
+            <button class="btnlist__button" type="button">Маркетинг</button>
           </li>
         </ul>
 
-        <ul class="works-list list">
+        <ul class="works list">
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-            <div class="hover-box">
+            <a class="works__link" href="">
+            <div class="works__box">
             <img src="./images/portfolio-cards-img/img.jpg" width="370" alt="Ноутбук" />
-              <p class="hover-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+              <p class="works__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
             </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Технокряк</h2>
-            <p class="gallery-descr">Веб-сайт</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Технокряк</h2>
+            <p class="works__descr">Веб-сайт</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-2.jpg" width="370" alt="спортсмены" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Постер New Orlean vs Golden Star</h2>
-            <p class="gallery-descr">Дизайн</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Постер New Orlean vs Golden Star</h2>
+            <p class="works__descr">Дизайн</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-3.jpg" width="370" alt="логотип ресторана" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Ресторан Seafood</h2>
-            <p class="gallery-descr">Приложения</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Ресторан Seafood</h2>
+            <p class="works__descr">Приложения</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-4.jpg" width="370" alt="наушники" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Проект Prime</h2>
-            <p class="gallery-descr">Маркетинг</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Проект Prime</h2>
+            <p class="works__descr">Маркетинг</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-5.jpg" width="370" alt="коробки" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Проект Boxes</h2>
-            <p class="gallery-descr">Приложения</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Проект Boxes</h2>
+            <p class="works__descr">Приложения</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-6.jpg" width="370" alt="Компьютер" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Inspiration has no Borders</h2>
-            <p class="gallery-descr">Веб-сайт</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Inspiration has no Borders</h2>
+            <p class="works__descr">Веб-сайт</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-7.jpg" width="370" alt="книга" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Издание Limited Edition</h2>
-            <p class="gallery-descr">Дизайн</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Издание Limited Edition</h2>
+            <p class="works__descr">Дизайн</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">
+            <a class="works__link" href="">
+              <div class="works__box">
             <img src="./images/portfolio-cards-img/img-8.jpg" width="370" alt="бирка" />
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
+          <p class="works__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis repudiandae placeat ex, quos similique eius exercitationem obcaecati quisquam ab nobis cumque sunt quasi ipsam.</p>  
           </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Проект LAB</h2>
-            <p class="gallery-descr">Маркетинг</p>
+            <div class="works__thumb">
+            <h2 class="works__name">Проект LAB</h2>
+            <p class="works__descr">Маркетинг</p>
             </div>
             </a>
           </li>
           
-          <li class="works-item">
+          <li class="works__item">
 
-            <a class="works-link" href="">
-              <div class="hover-box">      
+            <a class="works__link" href="">
+              <div class="works__box">      
             <img
               src="./images/portfolio-cards-img/img-9.jpg"
               width="370"
               alt="работа за компьютером"
             />
-            <p class="hover-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beatae esse corrupti commodi nisi ipsam adipisci nulla fugiat tempore vitae minima ducimus quisquam accusamus eligendi.</p>
-  </div>
-            <div class="works-caption">
-            <h2 class="gallery-captions">Growing Business</h2>
-            <p class="gallery-descr">Приложение
+            <p class="works__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, beatae esse corrupti commodi nisi ipsam adipisci nulla fugiat tempore vitae minima ducimus quisquam accusamus eligendi.</p>
+        </div>
+            <div class="works__thumb">
+            <h2 class="works__name">Growing Business</h2>
+            <p class="works__descr">Приложение
               </div>
             </p>
           </a></li>
@@ -216,25 +219,25 @@
     </main>
 
     <!-- Подвал -->
-  <footer class="footer">
-      <div class="container ftr">
-        <div class="ftr-box-left">
-          <a href="./index.html" class="logo ftr" lang="en"
-            >Web<span class="logo-white">Studio</span></a
+   <footer class="footer">
+      <div class="container footer__container">
+        <div class="container__left">
+          <a href="./index.html" class="footer__logo" lang="en"
+            >Web<span class="footer__logo--blue">Studio</span></a
           >
           <address class="address">
-            <p class="place">г. Киев, пр-т Леси Украинки, 26</p>
-            <a class="mail down" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="tel down" href="tel:+380999999999">+380999999999</a>
+            <p class="address__place">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="address__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address__tel" href="tel:+380999999999">+380999999999</a>
           </address>
         </div>
-        <div class="ftr-box-right">
-          <p class="ftr-txt">присоединяйтесь</p>
-          <ul class="ftr-list">
-            <li class="ftr-list-item">
-              <a class="ftr-icons" href="">
+        <div class="container__mid">
+          <p class="footer__text">присоединяйтесь</p>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="footer__link" href="">
                 <svg
-                  class="ftr-icon"
+                  class="footer__icon"
                   width="20"
                   height="20"
                   aria-label="social
@@ -244,50 +247,50 @@
                 </svg>
               </a>
             </li>
-            <li class="ftr-list-item">
-              <a class="ftr-icons" href="">
-                <svg class="ftr-icon" width="20" height="20" aria-label="social icon">
+            <li class="footer__list-item">
+              <a class="footer__link" href="">
+                <svg class="footer__icon" width="20" height="20" aria-label="social icon">
                   <use href="./images/icons.svg#twitterblack"></use>
                 </svg>
               </a>
             </li>
-            <li class="ftr-list-item">
-              <a class="ftr-icons" href="">
-                <svg class="ftr-icon" width="20" height="20" aria-label="social icon">
+            <li class="footer__list-item">
+              <a class="footer__link" href="">
+                <svg class="footer__icon" width="20" height="20" aria-label="social icon">
                   <use href="./images/icons.svg#facebookblack"></use>
                 </svg>
               </a>
             </li>
-            <li class="ftr-list-item">
-              <a class="ftr-icons" href="">
-                <svg class="ftr-icon" width="20" height="20" aria-label="social icon">
+            <li class="footer__list-item">
+              <a class="footer__link" href="">
+                <svg class="footer__icon" width="20" height="20" aria-label="social icon">
                   <use href="./images/icons.svg#linkedinblack"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="ftr-box-three">
-          <p class="ftr-txt">Подпишитесь на рассылку</p>
-          <div class="ftr-form">
-            <form>
+        <div class="container__right">
+          <p class="footer__text">Подпишитесь на рассылку</p>
+          <form>
+            <div class="footer__form">
               <label for="user-email" class="ftr-label">
                 <input
-                  class="ftr-type"
+                  class="footer__type"
                   type="email"
                   name="email"
                   placeholder="E-mail"
                   id="user-email"
                 />
               </label>
-            </form>
-            <button type="submit" class="ftr-btn">
-              <svg class="send-icon" width="24" height="24" aria-label="send icon">
-                <use href="./images/icons.svg#iconsend"></use>
-              </svg>
-              Подписаться
-            </button>
-          </div>
+              <button type="submit" class="button footer__button">
+                <svg class="button__icon" width="24" height="24" aria-label="button icon">
+                  <use href="./images/icons.svg#iconsend"></use>
+                </svg>
+                Подписаться
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
