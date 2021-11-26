@@ -468,6 +468,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
 
   background-color: var(--accent-color);
   color: var(--header-color);
+  transition: background 250ms var(--time-function);
 }
 .form__button:hover,
 .form__button:focus {
