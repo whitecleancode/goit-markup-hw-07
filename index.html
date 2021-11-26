@@ -74,52 +74,54 @@
                 <use href="./images/icons.svg#mdwclose"></use>
               </svg>
             </button>
-            <div lang="ru" class="form modal__form">
-              <p class="form__name">Оставьте свои данные, мы вам перезвоним</p>
-              <label class="form__label" for="user-name">Имя</label>
-              <div class="form__block">
-                <input class="form__input" type="name" name="name" id="user-name" />
-                <svg class="form__icon" width="18" height="18" aria-label="name">
-                  <use href="./images/icons.svg#person"></use>
-                </svg>
+            <form action="submit">
+              <div lang="ru" class="form modal__form">
+                <p class="form__name">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="form__label" for="user-name">Имя</label>
+                <div class="form__block">
+                  <input class="form__input" type="name" name="name" id="user-name" />
+                  <svg class="form__icon" width="18" height="18" aria-label="name">
+                    <use href="./images/icons.svg#person"></use>
+                  </svg>
+                </div>
+                <label class="form__label" for="user-tel" aria-label="telephone">Телефон</label>
+                <div class="form__block">
+                  <input class="form__input" type="tel" name="tel" id="user-tel" />
+                  <svg class="form__icon" width="18" height="18" aria-label="tel">
+                    <use href="./images/icons.svg#phone"></use>
+                  </svg>
+                </div>
+                <label class="form__label" for="user-email" aria-label="mail">Почта</label>
+                <div class="form__block">
+                  <input class="form__input" type="email" name="email" id="user-email" />
+                  <svg class="form__icon" width="18" height="18" aria-label="email">
+                    <use href="./images/icons.svg#email"></use>
+                  </svg>
+                </div>
+                <label class="form__label" for="user-feedback">Комментарий</label>
+                <textarea
+                  class="form__message"
+                  name="message"
+                  id="user-feedback"
+                  placeholder="Введите текст"
+                  rows="8"
+                ></textarea>
+                <div class="agreement form__agreement">
+                  <input
+                    class="visually-hidden"
+                    type="checkbox"
+                    name="agreement"
+                    id="agreement-checkbox"
+                  />
+                  <label class="agreement__checkbox" for="agreement-checkbox"></label>
+                  <p class="agreement__text">
+                    Соглашаюсь с рассылкой и принимаю
+                    <a class="checkbox-link" href="">Условия договора</a>
+                  </p>
+                </div>
+                <button class="form__button" type="submit">Отправить</button>
               </div>
-              <label class="form__label" for="user-tel" aria-label="telephone">Телефон</label>
-              <div class="form__block">
-                <input class="form__input" type="tel" name="tel" id="user-tel" />
-                <svg class="form__icon" width="18" height="18" aria-label="tel">
-                  <use href="./images/icons.svg#phone"></use>
-                </svg>
-              </div>
-              <label class="form__label" for="user-email" aria-label="mail">Почта</label>
-              <div class="form__block">
-                <input class="form__input" type="email" name="email" id="user-email" />
-                <svg class="form__icon" width="18" height="18" aria-label="email">
-                  <use href="./images/icons.svg#email"></use>
-                </svg>
-              </div>
-              <label class="form__label" for="user-feedback">Комментарий</label>
-              <textarea
-                class="form__message"
-                name="message"
-                id="user-feedback"
-                placeholder="Введите текст"
-                rows="8"
-              ></textarea>
-              <div class="agreement form__agreement">
-                <input
-                  class="visually-hidden"
-                  type="checkbox"
-                  name="agreement"
-                  id="agreement-checkbox"
-                />
-                <label class="agreement__checkbox" for="agreement-checkbox"></label>
-                <p class="agreement__text">
-                  Соглашаюсь с рассылкой и принимаю
-                  <a class="checkbox-link" href="">Условия договора</a>
-                </p>
-              </div>
-              <button class="form__button" type="submit">Отправить</button>
-            </div>
+            </form>
           </div>
         </div>
       </section>
@@ -470,8 +472,8 @@
         </div>
         <div class="container__right">
           <p class="footer__text">Подпишитесь на рассылку</p>
-          <div class="footer__form">
-            <form>
+          <form>
+            <div class="footer__form">
               <label for="user-email" class="ftr-label">
                 <input
                   class="footer__type"
@@ -481,14 +483,14 @@
                   id="user-email"
                 />
               </label>
-            </form>
-            <button type="submit" class="button footer__button">
-              <svg class="button__icon" width="24" height="24" aria-label="button icon">
-                <use href="./images/icons.svg#iconsend"></use>
-              </svg>
-              Подписаться
-            </button>
-          </div>
+              <button type="submit" class="button footer__button">
+                <svg class="button__icon" width="24" height="24" aria-label="button icon">
+                  <use href="./images/icons.svg#iconsend"></use>
+                </svg>
+                Подписаться
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>

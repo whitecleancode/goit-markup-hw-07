@@ -23,6 +23,7 @@
   --hover-accent-cl: rgba(33, 150, 243, 0.9);
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
   --backdrop-cl: rgba(0, 0, 0, 0.2);
+  --accent-hover: #188ce8;
 }
 
 /* style normalize */
@@ -274,7 +275,10 @@ img {
   width: 100vw;
   height: 100vh;
   top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   position: fixed;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: visibility 250ms var(--time-function), opacity 250ms var(--time-function);
@@ -314,10 +318,6 @@ img {
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
-}
-.modal__close:hover,
-.modal__close:focus {
-  border-color: var(--accent-color);
 }
 
 .modal__close:hover .modal__icon,
@@ -468,6 +468,10 @@ input[type='checkbox']:checked + .agreement__checkbox {
 
   background-color: var(--accent-color);
   color: var(--header-color);
+}
+.form__button:hover,
+.form__button:focus {
+  background-color: var(--accent-hover);
 }
 /* features */
 /* .section {
@@ -876,6 +880,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
   background-color: violet;
   color: deepskyblue;
 }
+
 /*  portfolio#btn */
 .button-portfolio {
   border: 0px;
