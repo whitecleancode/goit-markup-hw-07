@@ -28,6 +28,7 @@
 } */
 
 /* style normalize */
+<<<<<<< HEAD
 body {
   margin: 0px;
   color: var(--txt-clor);
@@ -61,6 +62,9 @@ a {
   margin: 0px;
   list-style: none;
 }
+=======
+
+>>>>>>> bd6d9c44808eb78ca6a6291e6cdad54290d041d8
 
 /* outside block/templates */
 
@@ -88,6 +92,7 @@ a {
 }
 
 /* Header Left Side(Logo) */
+<<<<<<< HEAD
 .header {
   border-bottom: 1px solid #ececec;
 
@@ -112,6 +117,9 @@ a {
 .header__logo--b-clor {
   color: var(--title-clor);
 }
+=======
+
+>>>>>>> bd6d9c44808eb78ca6a6291e6cdad54290d041d8
 
 /* site NavigatiOn */
 .nav__list {
