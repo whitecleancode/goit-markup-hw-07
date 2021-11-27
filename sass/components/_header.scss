@@ -1,0 +1,29 @@
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    background-color: var(--w-clor);
+    border-bottom: 1px solid #ececec;
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+    &__logo {
+      display: inline-block;
+      margin-right: 93px;
+      font-family: Raleway, sans-serif;
+      font-weight: 700;
+      
+      line-height: 1.2;
+      letter-spacing: $ls;
+      color: var(--accent-clor);
+      text-decoration: none;
+    }
+    &__logo--b-clor {
+      color: var(--title-clor);
+    }
+  }

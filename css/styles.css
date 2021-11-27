@@ -54,29 +54,7 @@
 }
 
 /* Header Left Side(Logo) */
-.header {
-  background-color: var(--w-clor);
-  border-bottom: 1px solid #ececec;
-}
-.header__container {
-  display: flex;
-  align-items: center;
-  background-color: var(--w-clor);
-}
-.header__logo {
-  display: inline-block;
-  margin-right: 93px;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: var(--accent-clor);
-  text-decoration: none;
-}
-.header__logo--b-clor {
-  color: var(--title-clor);
-}
+
 
 /* site NavigatiOn */
 .nav__list {
