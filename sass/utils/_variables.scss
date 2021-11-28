@@ -1,3 +1,18 @@
+:root {
+  --w-clor       : #ffffff;
+  --bg-clor1     : #f5f4fa;
+  --bg-clor2     : #2f303a;
+  --accent-clor  : #2196f3;
+  --title-clor   : #212121;
+  --txt-clor     : #757575;
+  --b-clor       : #000000;
+  --grey         : #afb1b8;
+  --hovr-clor    : rgba(33, 150, 243, 0.9);
+  --time-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-clor3     : rgba(0, 0, 0, 0.2);
+}
+
+
 $cLor: (
   'w': #fff, 'b': #000, 'gr': #afb1b8, 'title': #212121, 'txt': #757575, 'bg_1': #f5f4fa, 'bg_2': #2f303a,
     'bg_3': rgba(0, 0, 0, 0.2), 'acnt': #2196f3, 'hvr': rgba(33, 150, 243, 0.9),
@@ -22,3 +37,4 @@ $f: (
 
 $ls: letter-spacing 0.03em;
 $fx: display flex;
+
