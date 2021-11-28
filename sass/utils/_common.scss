@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -36,50 +35,3 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-=======
-    margin: 0px;
-    color: var(--txt-clor);
-    background-color: var(--w-clor);
-    font-style: normal;
-    text-decoration: none;
-    font-family: Roboto, sans-serif,
-    font-weight 400;
-
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  p {
-    margin: 0px;
-  }
-  li {
-    margin: 0;
-    list-style: none;
-  }
-  input {
-    outline: transparent;
-  }
-  img {
-    display: block;
-  }
-  
-  .list {
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-  }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-  
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
->>>>>>> bd6d9c44808eb78ca6a6291e6cdad54290d041d8

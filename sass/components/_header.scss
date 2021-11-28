@@ -1,12 +1,13 @@
 .container {
-    width 1200px;
-    margin-left auto;
-    margin-right auto ;
-    padding-left 15px;
-    padding-right 15px;
-  }
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
   .header {
-    background-color: var(--w-clor);
+    background-color: getcl('w');
     border-bottom: 1px solid #ececec;
     &__container {
       display: flex;
@@ -20,10 +21,10 @@
       
       line-height: 1.2;
       letter-spacing: $ls;
-      color: var(--accent-clor);
+      color: getcl('acnt');
       text-decoration: none;
     }
     &__logo--b-clor {
-      color: var(--title-clor);
+      color: getcl('b')
     }
   }

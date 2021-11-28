@@ -1,1 +1,81 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+h1,
+button {
+  letter-spacing: 0.06em;
+}
+
+ul,
+li,
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul__item,
+li__item,
+.list__item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  outline: transparent;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  margin-right: 93px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: letter-spacing 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.header__logo--b-clor {
+  color: #000;
+}
+/*# sourceMappingURL=main.css.map */
