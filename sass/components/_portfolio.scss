@@ -49,12 +49,12 @@
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0px;
+  padding: 0;
+  margin: 0;
   
   &__item {
     margin-right: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #eeeeee;
   }
   &__item:nth-child(3n + 3) {
     margin-right: 0px;
@@ -70,6 +70,7 @@
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: var(--time-function);
+    border-bottom: 1px solid #eeeeee;
   }
   &__link:hover &__text,
   &__link:focus &__text {
@@ -82,6 +83,7 @@
   }
   
   &__box {
+    width: 370px;
     position: relative;
     overflow: hidden;
   }
@@ -95,7 +97,8 @@
     padding-bottom: 63px;
     padding-left: 24px;
     padding-right: 24px;
-  
+    margin: 0;
+
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
@@ -106,23 +109,29 @@
     transition: transform 250ms var(--time-function);
   }
   &__thumb {
-    padding: 20px 24px;
+    width: 370px;
     font-size: 18px;
     line-height: 2;
+    padding: 20px 24px;
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
   }
+
   &__name {
-    font-weight: bold;
+    margin: 0;
+    padding-bottom: 4px;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-clor);
   }
   &__descr {
+    margin: 0;  
     font-size: 16px;
     line-height: 1.87;
     color: var(--txt-clor);
+
   }
 }
