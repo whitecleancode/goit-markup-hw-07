@@ -1,22 +1,22 @@
 .team {
-    background-color: #f5f4fa;
+    background-color: getcl('bg_1');
     padding-top     : 94px;
     padding-bottom  : 94px;
     
 }
 .team__title {
-    font-size  : 36px;
+    font-size  : getf('large');
     line-height: 1.19;
     text-align : center;
     
     &--small {
         margin-bottom : 10px;
         font-weight   : 500;
-        font-size     : 16px;
+        font-size     : getf('medium');
         line-height   : 1.19;
         text-align    : center;
-        letter-spacing: 0.03em;
-        color         : #212121;
+        letter-spacing: $ls;
+        color         : getcl('title');
     }
 }
 
@@ -43,13 +43,13 @@
 .team__overlay {
     padding-top     : 30px;
     padding-bottom  : 30px;
-    background-color: #ffffff;
+    background-color: getcl('w');
 }
 
 
 .team__text {
     text-align      : center;
-    background-color: #ffffff;
+    background-color: getcl('w');
     margin-bottom   : 16px;
 }
 
@@ -75,14 +75,14 @@
     width           : 44px;
     height          : 44px;
     border-radius   : 50%;
-    background-color: var(--w-clor);
+    background-color: getcl('w');
 
     transition-property       : background-color;
     transition-duration       : 250ms;
-    transition-timing-function: var(--time-function);
+    transition-timing-function: $cubic;
     &:hover,
     &:focus {
-        background-color: var(--accent-clor);
+        background-color: getcl('acnt');
     }
     
     &:hover .social__icon,
@@ -96,5 +96,5 @@
     fill                      : getcl('gr');
     transition-property       : fill;
     transition-duration       : 250ms;
-    transition-timing-function: var(--time-function);
+    transition-timing-function: $cubic;
 }

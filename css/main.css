@@ -698,7 +698,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
 }
 
 .team__title {
-  font-size: 36px;
+  font-size: font-size 36px;
   line-height: 1.19;
   text-align: center;
 }
@@ -706,7 +706,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
 .team__title--small {
   margin-bottom: 10px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: font-size 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -739,12 +739,12 @@ input[type='checkbox']:checked + .agreement__checkbox {
 .team__overlay {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .team__text {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff;
   margin-bottom: 16px;
 }
 
@@ -779,7 +779,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--w-clor);
+  background-color: #fff;
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -789,7 +789,7 @@ input[type='checkbox']:checked + .agreement__checkbox {
 }
 
 .social__link:hover, .social__link:focus {
-  background-color: var(--accent-clor);
+  background-color: #2196f3;
 }
 
 .social__link:hover .social__icon,
