@@ -19,17 +19,7 @@ $cLor: (
 );
 $cubic: var(--time-function);
 
-
-// w = white, b = black, gr = grey, title = close to black, text = grey, 3 bg 4 3 sections, acnt, hover = blue.
-
-$f: (
-  'small': font-size 14px, 'medium': font-size 16px, 'large': font-size 36px, 'extraLarge': font-size
-    44,
-);
-// fonts would be like clothes sizing, from S to XL
-// 14, 16++, logo26, titles36, h144
-
-
+ $f: ('small': 14px, 'medium': 16px, 'large': 36px, 'extraLarge': 44px);
 
 $ls: 0.03em;
 $fx: flex;
