@@ -34,14 +34,14 @@
     text-decoration: none;
     color          : var(--title-clor);
     font-weight    : 700;
-    font-size      : 14px;
+    font-size      : getf('small');
     line-height    : 1.14;
-    letter-spacing : 0.03em;
+    letter-spacing : $ls;
     text-transform : uppercase;
 }
 .block__text {
-    font-size     : 14px;
+    font-size     : getf('small');
     line-height   : 1.71;
-    letter-spacing: 0.03em;
-    color         : var(--txt-clor);
+    letter-spacing: $ls;
+    color         : getcl('txt');
 }
